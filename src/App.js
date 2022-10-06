@@ -1,11 +1,13 @@
 import './App.css'
-
+import User from './components/users/Users';
+import Navbar from './components/partials/Navbar';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <a href="" className="btn btn-primary">HI</a>
-      </header>
+        <Navbar/>
+       <div className="container">
+        <User/>
+      </div>
     </div>
   );
 }
